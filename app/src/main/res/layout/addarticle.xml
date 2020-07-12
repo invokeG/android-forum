@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:background="#E6E6E6">
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="标题"
+        android:padding="5dp"
+        android:gravity="top"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/editcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="6"
+        android:hint="分享新鲜事..."
+        android:padding="5dp"
+        android:gravity="top"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/addPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/addpicture"/>
+        <TextView
+            android:id="@+id/addtextview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="添加照片"
+            android:gravity="center_vertical"
+            android:padding="8dp"
+            android:drawablePadding="8dp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/addNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/addno"
+            android:background="#E6E6E6"
+            android:layout_marginRight="285dp"/>
+        <ImageButton
+            android:id="@+id/addYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/addyes"
+            android:background="#E6E6E6" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
